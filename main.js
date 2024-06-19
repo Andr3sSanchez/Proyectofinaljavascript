@@ -36,6 +36,17 @@ const TarjetaProductoCarrito = (producto) => {
             <button class="btn-comprar">Comprar</button>
         `;
         CarritoProductos.append(tarjeta);
+
+        const btnComprar = tarjeta.querySelector(".btn-comprar");
+        btnComprar.addEventListener("click", () => {
+            localStorage.removeItem("carrito");
+            CarritoProductos.innerHTML = "";
+            Swal.fire({
+                icon: 'success',
+                title: '¡Gracias por tu compra!',
+                text: 'Tu compra ha sido exitosa. ¡Esperamos verte de nuevo pronto!',
+            });
+        });
     }
 }
 
@@ -48,6 +59,7 @@ const traerProductos = async () => {
         });
         return productos;
     } catch (error) {
+        console.log("Error al traer productos:", error);
     }
 }
 
