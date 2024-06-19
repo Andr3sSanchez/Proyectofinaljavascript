@@ -1,0 +1,82 @@
+[
+  {
+      "id": 1,
+      "titulo": "Camisa de cuadros",
+      "descripcion": "Camisa de algodón con diseño de cuadros, color azul y blanco",
+      "precio": 29.99,
+      "stock": 50,
+      "imagen": "./img/cubos-blue.jpg"
+  },
+  {
+      "id": 2,
+      "titulo": "Vestido floral",
+      "descripcion": "Vestido corto con estampado floral, manga corta",
+      "precio": 39.99,
+      "stock": 30,
+      "imagen": "./img/vestido-floral.jpg"
+  },
+  {
+      "id": 3,
+      "titulo": "Jeans skinny",
+      "descripcion": "Pantalones jeans ajustados, color negro",
+      "precio": 49.99,
+      "stock": 40,
+      "imagen": "./img/pantalon-negro.jpeg"
+  },
+  {
+      "id": 4,
+      "titulo": "Blusa elegante",
+      "descripcion": "Blusa elegante sin mangas, color blanco",
+      "precio": 34.99,
+      "stock": 25,
+      "imagen": "./img/blusa-elegante_.jpg"
+  },
+  {
+      "id": 5,
+      "titulo": "Chaqueta de cuero",
+      "descripcion": "Chaqueta de cuero genuino, color negro",
+      "precio": 99.99,
+      "stock": 15,
+      "imagen": "./img/chaqueta-cuero.jpg"
+  },
+  {
+      "id": 6,
+      "titulo": "Pantalones cargo",
+      "descripcion": "Pantalones cargo con múltiples bolsillos, color verde oliva",
+      "precio": 45.99,
+      "stock": 20,
+      "imagen": "./img/pantalones-cargo.jpg"
+  },
+  {
+      "id": 7,
+      "titulo": "Falda plisada",
+      "descripcion": "Falda plisada de tela ligera, color azul marino",
+      "precio": 24.99,
+      "stock": 35,
+      "imagen": "./img/falda-plisada.jpg"
+  },
+  {
+      "id": 8,
+      "titulo": "Sudadera con capucha",
+      "descripcion": "Sudadera con capucha y bolsillo canguro, color gris",
+      "precio": 29.99,
+      "stock": 30,
+      "imagen": "./img/sudadera-con-capucha.jpg"
+  },
+  {
+      "id": 9,
+      "titulo": "Camiseta estampada",
+      "descripcion": "Camiseta de algodón con estampado gráfico, color negro",
+      "precio": 19.99,
+      "stock": 50,
+      "imagen": "./img/camiseta-estampa-lp.jpg"
+  },
+  {
+      "id": 10,
+      "titulo": "Traje formal",
+      "descripcion": "Traje formal completo, color gris oscuro",
+      "precio": 149.99,
+      "stock": 10,
+      "imagen": "./img/traje-formal.jpg"
+  }
+]
